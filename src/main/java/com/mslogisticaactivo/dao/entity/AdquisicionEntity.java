@@ -16,7 +16,7 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "AdquisicionEntity", schema = "asset")
+@Table(name = "Adquisicion", schema = "asset")
 public class AdquisicionEntity {
     @Id
     @GenericGenerator(name = "uuid", strategy = "uuid2")

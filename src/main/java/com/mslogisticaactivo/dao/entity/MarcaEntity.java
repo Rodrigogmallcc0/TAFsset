@@ -13,7 +13,7 @@ import jakarta.persistence.Table;
 import lombok.Data;
 
 @Data
-@Entity@Table(name = "MarcaEntity", schema = "asset")
+@Entity@Table(name = "Marca", schema = "asset")
 public class MarcaEntity {
     @Id
     @GenericGenerator(name = "uuid", strategy = "uuid2")

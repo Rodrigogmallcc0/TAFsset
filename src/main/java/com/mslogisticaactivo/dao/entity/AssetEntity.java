@@ -15,7 +15,7 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name = "AssetEntity", schema = "asset")
+@Table(name = "Asset", schema = "asset")
 public class AssetEntity {
 
     @Id
